@@ -4,8 +4,14 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'WWW::Search::Tv::German::Tvtoday',
     'VERSION_FROM'	=> 'Tvtoday.pm', # finds $VERSION
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
+	# these modules are needed for mine:
+    'PREREQ_PM'		=> {
+	'HTML::TableContentParser' => '0', # or a minimum workable version
+	'URI::Escape' => 0,
+	'LWP::UserAgent' => 0,
+	'File::Basename' => 0,
+	}, 
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'Tvtoday.pm', # retrieve abstract from module
-       AUTHOR     => 'A. U. Thor <a.u.thor@a.galaxy.far.far.away>') : ()),
+       AUTHOR     => 'Richard Lippmann <horshack@lisa.franken.de>') : ()),
 );

@@ -29,7 +29,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 our $DEBUG = 0;
 
 
@@ -514,5 +514,7 @@ Richard Lippmann <horshack@lisa.franken.de>
 =head1 HISTORY
 
 V1.02 - Initial release
+V1.03 - Problems in distribution files at CPAN
+V1.04 - Problems in Makefile.PL distribution file at CPAN
 
 =cut

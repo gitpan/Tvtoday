@@ -6,3 +6,6 @@ Revision history for Perl extension WWW::Search::Tv::German::Tvtoday.
 
 1.03  Mon Jan 13 08:43:00 2003
 	- distribution changed, deleted Makefile and other not needed files
+
+1.04  Mon Jan 13 20:27:00 2003
+	- changed Makefile.PL to reflect needed modules for Tvtoday.pm
