@@ -29,7 +29,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 our $DEBUG = 0;
 
 
@@ -495,6 +495,13 @@ and "when". The list is sorted by date/time.
 Get a list of values which are searched for at tvtoday.
 
 	my @searchingfor = $tv->get_searchvalues();
+
+=head2 BUGS
+
+Does not 
+
+	* recognize or check more than the first page of the resultset from tvtoday.de
+	* take care about VPS or Showview
 
 =head2 EXPORT
 

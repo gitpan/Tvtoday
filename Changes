@@ -1,6 +1,8 @@
 Revision history for Perl extension WWW::Search::Tv::German::Tvtoday.
 
-0.01  Sun Jan 12 15:58:13 2003
+1.02  Sun Jan 12 15:58:13 2003
 	- original version; created by h2xs 1.21 with options
 		-X WWW::Search::Tv::German::Tvtoday
 
+1.03  Mon Jan 13 08:43:00 2003
+	- distribution changed, deleted Makefile and other not needed files
