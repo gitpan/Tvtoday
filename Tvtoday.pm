@@ -29,7 +29,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 	
 );
-our $VERSION = '1.04';
+our $VERSION = '1.05';
 our $DEBUG = 0;
 
 
@@ -376,7 +376,7 @@ __END__
 
 =head1 NAME
 
-WWW::Search::Tv::German::Tvtoday - checking a directory for bad letters in filenames
+WWW::Search::Tv::German::Tvtoday - Get television-program from german www.tvtoday.de and search for special broadcasts you like
 
 =head1 PLATFORMS
 
